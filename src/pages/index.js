@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 import MainHeader from '@/client/components/MainHeader';
+import Sidebar from '@/client/components/Sidebar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <MainHeader />
+        <Sidebar />
       </main>
     </>
   );
